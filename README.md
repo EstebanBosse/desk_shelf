@@ -22,7 +22,11 @@ Notes:
 
 This workspace also contains a two-piece drawer slide sized for a 220 x 150 x 70 mm wooden box.
 
-![Drawer slide parts](images/drawer_slide_parts.png)
+![Drawer slide parts perspective](images/drawer_slide_parts_iso.png)
+
+![Drawer slide parts top](images/drawer_slide_parts_top.png)
+
+![Drawer slide assembled](images/drawer_slide_assembly.png)
 
 - File: `drawer_side_slide.scad`
 - Print two table rails and two box runners
