@@ -45,3 +45,20 @@ Notes:
 - The rail includes a stronger front detent so the drawer resists sliding fully out by accident.
 - The default fit is intentionally a bit loose for easier printing and smoother motion.
 - `show_preview = true;` renders the shelf, box, both table rails, and both box runners.
+
+## Box Handle
+
+This workspace also contains a printable front handle for the 220 x 150 x 70 mm wooden box.
+
+- File: `box_handle.scad`
+- Approximate print envelope: 120 x 30 x 30 mm
+- Screw spacing: 84 mm center-to-center
+- Default screw hole diameter: 4.3 mm clearance for M4 screws
+- Default mounting uses countersunk M4 screw pockets
+
+Notes:
+
+- The handle is designed to mount to the front face of the wooden box.
+- The grip projects 24 mm from the box front and leaves about 18 mm finger clearance.
+- The supports are rounded for a softer grip transition and a less blocky look.
+- `show_preview = true;` renders the handle against a simplified front face of the box with M4 countersunk screws installed.
