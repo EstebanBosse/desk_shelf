@@ -2,6 +2,8 @@
 
 This workspace contains one OpenSCAD model for a desk-shelf holder sized for a 1200 x 200 x 18 mm board.
 
+![Desk shelf holder](images/desk_shelf_holder.png)
+
 - File: `desk_shelf_holder.scad`
 - The holder can be exported as a split base and cap to reduce print risk
 - Print two bases and two caps, then glue each base/cap pair together
@@ -21,9 +23,13 @@ Notes:
 - `render_part = "cap";` exports the upper part.
 - `show_preview = true;` renders the full shelf with both split holders assembled.
 
+![Split holder parts](images/desk_shelf_holder_split.png)
+
 ## Drawer Side Slide
 
 This workspace also contains a two-piece drawer slide sized for a 220 x 150 x 70 mm wooden box.
+
+![Drawer slide parts](images/drawer_slide_parts.png)
 
 - File: `drawer_side_slide.scad`
 - Print two table rails and two box runners
