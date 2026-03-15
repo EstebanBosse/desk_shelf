@@ -5,25 +5,18 @@ This workspace contains one OpenSCAD model for a desk-shelf holder sized for a 1
 ![Desk shelf holder](images/desk_shelf_holder.png)
 
 - File: `desk_shelf_holder.scad`
-- The holder can be exported as a split base and cap to reduce print risk
-- Print two bases and two caps, then glue each base/cap pair together
 - Target board top height: 120 mm
 - Shelf underside height: 102 mm
-- Approximate base print envelope: 145 x 58 x 56 mm
-- Approximate cap print envelope: 145 x 58 x 62 mm
+- Approximate print envelope per holder: 145 x 58 x 106 mm
 
 Notes:
 
 - The model is intentionally symmetric front-to-back so the same print works on both sides without mirroring.
 - The board rests on a 110 mm deep top platform, centered on a 145 mm base for front/back stability.
 - The default printable model includes two screw pass-through holes per holder for fastening the wooden board.
-- The split joint uses interlocking blocks sized for glue assembly rather than bolts.
 - Set `add_screw_holes = false;` if you want a version without screw holes.
-- `render_part = "base";` exports the lower part.
-- `render_part = "cap";` exports the upper part.
-- `show_preview = true;` renders the full shelf with both split holders assembled.
-
-![Split holder parts](images/desk_shelf_holder_split.png)
+- `render_part = "holder";` exports the full holder as one piece.
+- `show_preview = true;` renders the full shelf with both holders assembled.
 
 ## Drawer Side Slide
 
