@@ -1,5 +1,7 @@
 # Desk Shelf Holder
 
+![Full setup](images/full_setup.png)
+
 This workspace contains one OpenSCAD model for a desk-shelf holder sized for a 1200 x 200 x 18 mm board.
 
 ![Desk shelf holder](images/desk_shelf_holder.png)
