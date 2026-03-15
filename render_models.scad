@@ -13,15 +13,15 @@ drawer_box_height = 70;
 
 drawer_box_y = (board_length - drawer_box_width) / 2;
 drawer_box_x = board_depth - drawer_box_depth;
-drawer_box_bottom_z = 18;
+drawer_box_bottom_z = 0;
 
-table_rail_left_y = 473;
-table_rail_right_y = 699;
+table_rail_left_y = 475;
+table_rail_right_y = 697;
 table_rail_top_z = board_bottom_z;
 
-runner_left_y = 484;
-runner_right_y = 710;
-runner_bottom_z = drawer_box_bottom_z + 8;
+runner_left_y = 479;
+runner_right_y = 701;
+runner_bottom_z = 50;
 
 module holder_model() {
     import("desk_shelf_holder.stl");
@@ -59,11 +59,11 @@ module full_setup_model() {
     }
 
     color([0.3, 0.35, 0.4]) {
-        translate([0, runner_left_y, runner_bottom_z])
+        translate([160, runner_left_y, runner_bottom_z])
             rotate([0, 90, 0])
                 import("drawer_box_runner.stl");
 
-        translate([0, runner_right_y, runner_bottom_z])
+        translate([160, runner_right_y, runner_bottom_z])
             rotate([0, 90, 0])
                 import("drawer_box_runner.stl");
     }
